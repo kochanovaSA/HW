@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class array {
     public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
-        int[] array1 = new int[5];
-        System.out.println("Введите 5 дробных чисел");
+        int[] array1 = new int[9];
+        System.out.println("Введите 9 чисел");
         array1[0] = scr.nextInt();
         array1[1] = scr.nextInt();
         array1[2] = scr.nextInt();
