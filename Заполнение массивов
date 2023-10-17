@@ -1,1 +1,22 @@
-м
+import java.util.Scanner;
+public class array {
+    public static void main(String[] args) {
+        Scanner scr = new Scanner(System.in);
+        int[] array1 = new int[5];
+        System.out.println("Введите 5 дробных чисел");
+        array1[0] = scr.nextInt();
+        array1[1] = scr.nextInt();
+        array1[2] = scr.nextInt();
+        array1[3] = scr.nextInt();
+        array1[4] = scr.nextInt();
+        array1[5] = scr.nextInt();
+        array1[6] = scr.nextInt();
+        array1[7] = scr.nextInt();
+        array1[8] = scr.nextInt();
+        for (int i = 0; i < array1.length; i++) {
+            System.out.print(array1[i]);
+            int sum = array1[0] + array1[1] + array1[2] + array1[3] + array1[4] + array1[5] + array1[6] + array1[7] + array1[8];
+            System.out.println(sum);
+        }
+    }
+}
